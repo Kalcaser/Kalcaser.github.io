@@ -11,11 +11,17 @@
     <script>
         "use strict";
         
-            
-         let arr = prompt("Введите числа через запятую, БЕЗ ПРОБЕЛОВ:");
-            
-        
-        alert(arrReverseSorted(arr));
+            let mas = [];
+        let i = 0;
+        let a = 0;
+        shile(!isNaN(a)){
+         a = prompt("Введите числа через запятую, БЕЗ ПРОБЕЛОВ:");
+            if(!isNaN(a)){
+                mas[i]= +a;
+                ++i;
+            }
+        }        
+        alert(arrReverseSorted(mas))
     </script>
     
 </body>
