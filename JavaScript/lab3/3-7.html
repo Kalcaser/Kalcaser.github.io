@@ -8,22 +8,20 @@
     <script src = 'lab3.js'></script>
 </head>
 <body>
-    <script>
-        "use strict";
-        
-        let mas = [];
-        let i = 0;
-        let a = 0;
-        while(!isNan(a)){
-         a = prompt("Введите числа через запятую, БЕЗ ПРОБЕЛОВ:");
-            if(!isNan(a)){
-                mas[i]=+a;
-                ++i;
-            }
-            alert(arrReverseSorted(mas));
-        }        
-        
-    </script>
+   <script>
+"use strict";
+let mas = [];
+let i = 0;
+let a = 0;
+while (!isNaN(a)) {
+a = prompt("Введите элемент массива. Нажмите n для завершения.");
+if (!isNaN(a)){
+mas[i] = +a;
+++i;
+}
+}
+alert(arrReverseSorted(mas));
+</script>
     
 </body>
 </html>
