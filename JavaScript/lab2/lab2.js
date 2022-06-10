@@ -61,7 +61,6 @@ function fib(n) {
 
 /**
  * @param {number} x - число х
- * @param {number} y - число y
  * @return {function} - функция сравнения
  */
 function compare(x) {
