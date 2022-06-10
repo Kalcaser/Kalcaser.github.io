@@ -63,12 +63,10 @@ function fibs(n) {
 }
 
 function arrReverseSorted(arr) {
-    let a = [];
-    arr = arr.split(',');
-    for (let i = 0; i < arr.length; i++) {
-        a.push(arr[i]);
-    }
-    return a.sort((a, b) => b - a);
+   function arrReverseSorted(arr) {
+    return arr.concat().sort((a, b) => b - a);
+}
+    
 }
 
 function sum(...array) {
