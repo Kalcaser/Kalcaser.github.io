@@ -62,7 +62,7 @@ function fibs(n) {
     return fib1;
 }
 
-   function arrReverseSorted(mas) {
+   function arrReverseSorted(mas){
      return mas.concat().sort((a, b) => b - a);
 }
     
