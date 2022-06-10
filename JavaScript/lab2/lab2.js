@@ -65,7 +65,7 @@ function fib(n) {
  * @return {function} - функция сравнения
  */
 function compare(x) {
-    let result = function () {
+    return function (y) {
         if (y > x) return true
         else if (y < x) return false
         else return null;
