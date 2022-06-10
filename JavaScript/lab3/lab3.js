@@ -14,7 +14,11 @@ function getDecimal(num) {
 }
 
 function ucFirst(str) {
+    if(str == null)
     return str[0].toUpperCase() + str.slice(1);
+    else
+        return str;
+    
 }
 
 function checkSpam(str) {
